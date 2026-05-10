@@ -37,7 +37,6 @@ The project extracts text from a PDF, splits it into chunks, generates embedding
 
 ## 🧭 Project Workflow
 
-```mermaid
 flowchart TD
     A[Upload PDF] --> B[Extract Text]
     B --> C[Split into Chunks]
@@ -132,3 +131,32 @@ To run the notebook successfully, you need:
 pdf-ai-assistant-rag/
 ├── PDF_AI_Assistant_RAG.ipynb
 └── README.md
+
+---
+
+## 🔮 Possible Future Improvements
+
+- Better UI around the notebook workflow
+- Support for multiple PDFs
+- Stronger retrieval tuning
+- Citation-aware answers
+- Lightweight web interface
+- Downloadable output handling
+
+---
+
+## 👤 Author
+
+**Stefan Badev**  
+AI & Automation Builder • AI-Assisted Development • Workflows • Chatbots • AI Agents
+
+- GitHub: [s-badev](https://github.com/s-badev)
+- LinkedIn: [Stefan Badev](https://www.linkedin.com/in/stefan-badev-788460158)
+
+---
+
+## 📄 Status
+
+✅ Portfolio / educational project  
+✅ Public Google Colab notebook  
+✅ Suitable for CV / LinkedIn portfolio presentation
