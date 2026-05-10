@@ -37,6 +37,7 @@ The project extracts text from a PDF, splits it into chunks, generates embedding
 
 ## 🧭 Project Workflow
 
+```mermaid
 flowchart TD
     A[Upload PDF] --> B[Extract Text]
     B --> C[Split into Chunks]
@@ -49,8 +50,7 @@ flowchart TD
     I --> J[Text Output]
     I --> K[Image Output]
     I --> L[Audio Output]
-
-
+```
 ---
 
 ## 🛠️ Tech Stack
