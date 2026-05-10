@@ -50,6 +50,7 @@ flowchart TD
     I --> K[Image Output]
     I --> L[Audio Output]
 
+
 ---
 
 ## 🛠️ Tech Stack
@@ -127,10 +128,9 @@ To run the notebook successfully, you need:
 
 ## 📁 Repository Contents
 
-```text
 pdf-ai-assistant-rag/
 ├── PDF_AI_Assistant_RAG.ipynb
-└── README.md
+└── README.md  
 
 ---
 
