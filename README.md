@@ -1,64 +1,134 @@
-# PDF AI Assistant — RAG-based Question Answering
+# 📄 PDF AI Assistant — RAG-based Question Answering
 
-A Google Colab-based AI assistant that answers questions from PDF documents using Retrieval-Augmented Generation.
+<p align="left">
+  <a href="https://colab.research.google.com/drive/1cnDF9h9InMKB7IlpydNnti5adjn1Mnfi?usp=sharing">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+  </a>
+</p>
 
-The project extracts text from a PDF file, splits the content into chunks, creates embeddings, stores them in a vector database, retrieves relevant context, and generates answers using an LLM. It also supports text, image, and audio-style outputs.
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
+  <img src="https://img.shields.io/badge/OpenAI-API-black?logo=openai" />
+  <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-purple" />
+  <img src="https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-green" />
+  <img src="https://img.shields.io/badge/Google%20Colab-Notebook-orange?logo=googlecolab" />
+  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-success" />
+</p>
 
-## Notebook
+A Google Colab-based AI assistant that answers questions from PDF documents using **Retrieval-Augmented Generation (RAG)**.
 
-[Open in Google Colab](https://colab.research.google.com/drive/1cnDF9h9InMKB7IlpydNnti5adjn1Mnfi?usp=sharing)
+The project extracts text from a PDF, splits it into chunks, generates embeddings, stores them in a vector database, retrieves relevant context, and produces answers with an LLM. It also supports **text**, **image**, and **audio** style outputs.
 
-## Features
+---
 
-- PDF text extraction
-- Text chunking for retrieval
-- OpenAI embeddings
-- Vector storage with ChromaDB
-- Similarity search
-- RAG-based question answering
-- Text output
-- Image output generation
-- Audio output using text-to-speech
-- Google Colab workflow
+## ✨ Highlights
 
-## Tech Stack
+- 📥 PDF text extraction
+- ✂️ Text chunking for retrieval
+- 🧠 OpenAI embeddings
+- 🗂️ Vector storage with ChromaDB
+- 🔎 Similarity search
+- 💬 RAG-based question answering
+- 🖼️ Image output generation
+- 🔊 Audio output using text-to-speech
+- ☁️ End-to-end workflow in Google Colab
 
-- Python
-- Google Colab
-- OpenAI API
-- text-embedding-3-small
-- ChromaDB
-- pypdf
-- gTTS
-- Pillow
-- Pydantic
+---
 
-## How It Works
+## 🧭 Project Workflow
 
-1. Upload a PDF document in Google Colab.
-2. Extract the text from the PDF.
-3. Split the text into overlapping chunks.
-4. Generate embeddings for the chunks.
-5. Store the embeddings in ChromaDB.
-6. Retrieve the most relevant chunks for a user question.
-7. Generate an answer using an LLM.
-8. Return the answer as text, image, or audio.
+```mermaid
+flowchart TD
+    A[Upload PDF] --> B[Extract Text]
+    B --> C[Split into Chunks]
+    C --> D[Generate Embeddings]
+    D --> E[Store in ChromaDB]
+    E --> F[User Question]
+    F --> G[Similarity Search]
+    G --> H[Retrieve Relevant Chunks]
+    H --> I[LLM Generates Answer]
+    I --> J[Text Output]
+    I --> K[Image Output]
+    I --> L[Audio Output]
 
-## Project Purpose
+---
 
-This project was built as part of my SoftUni AI Integrations work.  
-It demonstrates practical use of LLM APIs, embeddings, vector databases, retrieval-augmented generation, and multimodal output workflows.
+## 🛠️ Tech Stack
 
-## Requirements
+| Category | Tools |
+|----------|-------|
+| Language | Python |
+| Environment | Google Colab |
+| LLM / API | OpenAI API |
+| Embeddings | `text-embedding-3-small` |
+| Vector Database | ChromaDB |
+| PDF Processing | pypdf |
+| Audio | gTTS |
+| Image Handling | Pillow |
+| Validation / Models | Pydantic |
 
-This notebook requires:
+---
 
-- A valid OpenAI API key
-- Google Colab
-- API billing/credits enabled for OpenAI usage
+## 📚 How It Works
 
-Do not commit API keys or private credentials to this repository.
+1. Upload a PDF document in Google Colab
+2. Extract the text from the PDF
+3. Split the content into overlapping chunks
+4. Generate embeddings for each chunk
+5. Store embeddings in ChromaDB
+6. Ask a question about the PDF
+7. Retrieve the most relevant chunks
+8. Generate an answer using an LLM
+9. Return the result as **text**, **image**, or **audio**
 
-## Status
+---
 
-Portfolio / educational project.
+## 🚀 Open the Notebook
+
+👉 **[Open in Google Colab](https://colab.research.google.com/drive/1cnDF9h9InMKB7IlpydNnti5adjn1Mnfi?usp=sharing)**
+
+---
+
+## 📌 Example Use Cases
+
+This assistant can be used to:
+
+- summarize large PDF documents
+- answer questions from reports, guides, or e-books
+- retrieve targeted information from long documents
+- experiment with RAG workflows in a practical environment
+
+---
+
+## 🎯 Project Purpose
+
+This project was built as part of my **SoftUni AI Integrations** work.
+
+It demonstrates practical use of:
+
+- LLM APIs
+- embeddings
+- vector databases
+- retrieval-augmented generation
+- multimodal output workflows
+
+---
+
+## ⚙️ Requirements
+
+To run the notebook successfully, you need:
+
+- a valid **OpenAI API key**
+- **Google Colab**
+- available **API billing / credits**
+
+> **Important:** Do not commit API keys or private credentials to this repository.
+
+---
+
+## 📁 Repository Contents
+
+```text
+pdf-ai-assistant-rag/
+├── PDF_AI_Assistant_RAG.ipynb
+└── README.md
