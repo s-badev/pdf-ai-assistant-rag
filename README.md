@@ -145,16 +145,6 @@ pdf-ai-assistant-rag/
 
 ---
 
-## 👤 Author
-
-**Stefan Badev**  
-AI & Automation Builder • AI-Assisted Development • Workflows • Chatbots • AI Agents
-
-- GitHub: [s-badev](https://github.com/s-badev)
-- LinkedIn: [Stefan Badev](https://www.linkedin.com/in/stefan-badev-788460158)
-
----
-
 ## 📄 Status
 
 ✅ Portfolio / educational project  
